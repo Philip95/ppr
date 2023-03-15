@@ -156,14 +156,6 @@
 			"path" : "C:/Users/phili/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake"
 		},
 		{
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.c"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp"
-		},
-		{
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Users/phili/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
@@ -172,14 +164,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Users/phili/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.8836.42/bin/cmake/win/x64/share/cmake-3.24/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c"
-		},
-		{
-			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
 		}
 	],
 	"kind" : "cmakeFiles",
