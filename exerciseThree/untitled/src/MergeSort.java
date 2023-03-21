@@ -2,7 +2,7 @@ public class MergeSort {
     public static void main(String[] args) {
         MergeSort ob = new MergeSort();
         long start = System.nanoTime();
-        ob.sort(MergeSortParallel.numbers(), 0, MergeSortParallel.numbers().length - 1);
+        ob.sort(NumberGenerator.numbers(), 0, NumberGenerator.numbers().length - 1);
         System.out.println("\n "+ (System.nanoTime() - start) / 1000000.0 + " ms");
     }
 

@@ -8,21 +8,13 @@ public class MergeSortParallel extends RecursiveAction {
     private final int low;
 
     public static void main(String[] args) {
-        int[] array = numbers();
+        int[] array = NumberGenerator.numbers();
         long start = System.nanoTime();
 
         ForkJoinPool pool = new ForkJoinPool();
         pool.submit(new MergeSortParallel(array, 0, array.length)).join();
         System.out.println("\n " + (System.nanoTime() - start) / 1000000.0 + " ms");
 
-    }
-
-    public static int[] numbers() {
-        int[] numbers = new int[10000000];
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = (int) (Math.random() * 10000000);
-        }
-        return numbers;
     }
 
     public MergeSortParallel(int[] array, int low, int high) {
