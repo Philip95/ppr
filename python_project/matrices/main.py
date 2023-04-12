@@ -115,16 +115,16 @@ if __name__ == '__main__':
     print(test(A, B))
     # parallel with ThreadPoolExecutor
     print("parallel with ThreadPoolExecutor")
-    D = Matrix(input1)
-    E = Matrix(input2)
+    D = ParallelMatrix_Threadpool(input1)
+    E = ParallelMatrix_Threadpool(input2)
     print(test(D, E))
     # parallel with ProcessPoolExecutor
     print("parallel with ProcessPoolExecutor")
-    F = Matrix(input1)
-    G = Matrix(input2)
+    F = ParallelMatrix_Process(input1)
+    G = ParallelMatrix_Process(input2)
     print(test(F, G))
     # numpy
     print("Numpy")
-    I = Matrix(input1)
-    J = Matrix(input2)
+    I = np.array(input1)
+    J = np.array(input2)
     print(test(I, J))
