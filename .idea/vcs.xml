@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$/GitLink/mandelbrotc-" vcs="Git" />
+=======
+>>>>>>> d4d7c85023132ed47ed84d075654ea9c4c2ac696
   </component>
 </project>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b4cb8ff-0c7b-46b5-a0f0-e2e4b122fcc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../mr/ParallelBuild.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/.idea/mr.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-01ee74cf2b6a31a43a59.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/.cmake/api/v1/reply/index-2023-03-14T18-16-22-0130.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/FindOpenMP/ompver_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/mr.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/CMakeFiles/mr.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/mr.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/mr.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/cmake-build-debug/sample.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/cmake-build-debug/sample.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mr/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../mr/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MyEAiHjNkS4saJrJwSxx9adWGS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/FH/2_Semester/SFR/sfr",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="mandelbrot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b4cb8ff-0c7b-46b5-a0f0-e2e4b122fcc6" name="Changes" comment="" />
+      <created>1678731281591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678731281591</updated>
+      <workItem from="1678731282721" duration="238000" />
+      <workItem from="1678796925508" duration="1186000" />
+      <workItem from="1678888686475" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
