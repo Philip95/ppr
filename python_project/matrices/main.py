@@ -5,12 +5,12 @@ import concurrent.futures
 import multiprocessing
 from helper import generate_matrices
 
-custom_context = multiprocessing.get_context("fork")
+custom_context = multiprocessing.get_context("spawn")
 
 
 def test(a, b):
     start = time.process_time()
-    c = a @ b
+    a @ b
     end = time.process_time()
     delta = end - start
     return start, end, OUTPUT, delta
@@ -55,7 +55,7 @@ class ParallelMatrix_Threadpool(list):
         if matrix_height_a != len(matrix_b):
             raise ValueError("Matrix dimensions are not compatible for multiplication")
         result = [[0] * matrix_height_b for _ in range(matrix_width)]
-        with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=None) as executor:
             futures = [
                 executor.submit(matmul_element, (i, j, matrix_a, matrix_b))
                 for i in range(matrix_width)
@@ -108,6 +108,7 @@ OUTPUT = "Runtime "
 input1, input2 = generate_matrices(1024, 1024, 0, 10)
 
 if __name__ == '__main__':
+    print(multiprocessing.cpu_count())
     # Basic
     print("Basic Sequential")
     A = Matrix(input1)
@@ -118,11 +119,7 @@ if __name__ == '__main__':
     D = ParallelMatrix_Threadpool(input1)
     E = ParallelMatrix_Threadpool(input2)
     print(test(D, E))
-    # parallel with ProcessPoolExecutor
-    print("parallel with ProcessPoolExecutor")
-    F = ParallelMatrix_Process(input1)
-    G = ParallelMatrix_Process(input2)
-    print(test(F, G))
+
     # numpy
     print("Numpy")
     I = np.array(input1)
